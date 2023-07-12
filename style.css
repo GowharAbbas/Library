@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles for the layout */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .book {
+    margin-bottom: 20px;
+  }
+  
+  .book img {
+    max-width: 200px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
